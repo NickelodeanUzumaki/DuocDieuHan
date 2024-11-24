@@ -15,11 +15,17 @@ _Please excuse any errors or messy code in this repository, and thanks for your 
 ## Demo of the website:
 
 **For PC**
-<img width="1436" alt="Screenshot 2024-11-25 at 12 45 40 am" src="https://github.com/user-attachments/assets/8179da66-7b59-4c24-9879-8466f693db98">
+<img width="1439" alt="Screenshot 2024-11-25 at 1 18 19 am" src="https://github.com/user-attachments/assets/05ab4860-efb0-4a2b-ae0e-e2f186e0e31e">
+
+Some cool (lol) hover effect:
+<img width="1272" alt="Screenshot 2024-11-25 at 1 18 50 am" src="https://github.com/user-attachments/assets/f3547b67-e4fd-4126-8463-c458475373ab">
+<img width="509" alt="Screenshot 2024-11-25 at 1 19 13 am" src="https://github.com/user-attachments/assets/79cfa688-cf23-4d26-a04d-931063855ebb">
 
 **For Responsive | Iphone 14 Promax**
 
-<img width="216" alt="Screenshot 2024-11-25 at 12 50 17 am" src="https://github.com/user-attachments/assets/29d66096-1b43-49fe-ad0e-34891c351d49">
+<img width="216" alt="Screenshot 2024-11-25 at 1 17 58 am" src="https://github.com/user-attachments/assets/83c18529-59aa-4f49-9de6-ac70b4eb9d10">
+
+They still have some cool hover effect as well lol
 
 _There is still a quite a few errors with this website for the responsive design but I will check out with that on later._
 
