@@ -1,0 +1,311 @@
+/* For PC */
+@media (min-width: 1024px) {
+  header {
+    padding: 20px;
+    background-image: linear-gradient(0, #328d44, #42a656);
+  }
+
+  .sub__header--nav {
+    width: 80%;
+    height: 50px;
+  }
+
+  /* Main nav styles */
+  .nav {
+    display: block;
+    /* Dùng flexbox để căn chỉnh */
+    /* justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; */
+    /* Cho phép xuống dòng nếu menu dài */
+  }
+
+  .container {
+    max-width: 1200px;
+    /* Giới hạn chiều rộng cho tablet */
+  }
+
+  .stat-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* For tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  header {
+    padding: 15px;
+    background-image: linear-gradient(0, #287a3a, #3b934e);
+  }
+
+  .sub__header--nav {
+    width: 90%;
+    height: 50px;
+    /* Chiều cao cố định */
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    /* Hiệu ứng bóng */
+    overflow: hidden;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .container {
+    max-width: 720px;
+    /* Giới hạn chiều rộng cho màn hình nhỏ hơn */
+  }
+
+  .header-text {
+    font-size: 1.5rem;
+  }
+
+  .stat-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .slider .text-content {
+    position: relative;
+    left: 28%;
+    bottom: 80px;
+    transform: translateX(-50%);
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+    margin-top: 480px;
+  }
+
+  .slider .text-heading {
+    font-weight: 500;
+    font-size: 2rem;
+    right: 200px;
+  }
+
+  .slider .text-description {
+    font-size: 20px;
+  }
+
+  .fb-message {
+    margin-bottom: 10%;
+  }
+
+  .footer {
+    max-width: 80%;
+    margin-top: 45px;
+  }
+}
+
+/* For mobile */
+@media (max-width: 739px) {
+  header {
+    padding: 10px;
+    background-image: linear-gradient(0, #226932, #2e7f43);
+  }
+
+  .header__navbar-item,
+  .header__navbar-item-link {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 5px;
+  }
+
+  .header-text {
+    margin: 30px 0 20px 0;
+    font-size: 1rem;
+  }
+
+  .sub-header-text {
+    display: none;
+    /* Ẩn phần tử trên màn hình nhỏ (mobile) */
+  }
+
+  .header__logo-img {
+    max-width: 70%;
+    color: #fff;
+    border-radius: 30px;
+  }
+
+  .header__liked-icon {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 6px;
+  }
+
+  .container {
+    max-width: 100%;
+    /* Sử dụng toàn bộ chiều rộng màn hình cho mobile */
+    padding: 0 10px;
+    /* Giảm padding cho điện thoại */
+  }
+
+  .header__cart-list {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: -60px;
+    background-color: #fdfdfd;
+    width: 410px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
+    display: none;
+    animation: fadeIn ease-in 0.2s;
+    cursor: default;
+    transform-origin: calc(100% -20px) top;
+    animation: headerNotifyGrowth 0.2s ease-in;
+  }
+
+  .header__cart-list::before {
+    content: "";
+    border: 20px solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 65px;
+    top: -25px;
+  }
+
+  .sub__header--nav {
+    width: 90%;
+    height: 50px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center;
+    background-color: #9a6735;
+    padding: 0 15px; */
+    /* Khoảng cách padding */
+    /* Chiều cao cố định */
+    /* border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); */
+    /* Hiệu ứng bóng */
+    overflow: hidden;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .nav .subnav {
+    position: initial;
+  }
+
+  .nav > li {
+    display: block;
+    justify-items: left;
+  }
+
+  .mobile__menu-btn {
+    display: block;
+    width: 42px;
+    cursor: pointer;
+    position: relative;
+    top: -220px;
+    left: 330px;
+    margin-top: -10px;
+    border-radius: 5px;
+  }
+
+  .menu-icon {
+    font-size: 24px;
+    color: white;
+    line-height: 50px;
+  }
+
+  .mobile__menu-btn:hover,
+  .mobile__menu-btn:hover .menu-icon {
+    background-color: #451a00;
+  }
+
+  /* Menu mobile mặc định ẩn */
+  .mobile-menu {
+    display: none;
+    /* Ẩn menu */
+    position: absolute;
+    top: 50px;
+    /* Hiển thị ngay bên dưới thanh menu */
+    right: 15px;
+    /* Căn phải theo nút menu */
+    background-color: #9a6735;
+    /* Màu nền */
+    width: 200px;
+    /* Chiều rộng menu */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Hiệu ứng bóng */
+    z-index: 999;
+    /* Đảm bảo hiển thị trên các thành phần khác */
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-menu ul li {
+    text-align: left;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    /* Đường kẻ ngăn */
+  }
+
+  .mobile-menu ul li:last-child {
+    border-bottom: none;
+    /* Xóa đường kẻ mục cuối */
+  }
+
+  .mobile-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .mobile-menu ul li a:hover {
+    color: #000;
+    background-color: #fff;
+  }
+
+  /* Khi menu được bật (hiển thị) */
+  .mobile-menu.active {
+    display: block;
+  }
+
+  /* the slider text */
+  .slider .text-content {
+    position: relative;
+    transform: translateX(-50%);
+    text-align: center;
+    text-shadow: 2px 2px 4px var(--black-color);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+  }
+
+  .stat-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-heading,
+  .help__heading,
+  .contact-section h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+  }
+
+  .name-buy-btn {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    margin-top: 30px;
+    width: 90%;
+  }
+}
