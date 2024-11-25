@@ -1,8 +1,10 @@
 # Dược Diệu Hân Official Store
 
-A small project for my awesome mum - est 2024 - Youtube link for the process of developing this project:
+**A small project for my awesome mum - est 2024**
 
-Check this result website out here: [Click here]() 👈
+> Youtube link for the process of developing this project: (still in process)
+
+Check this result website out here: [Click here](https://nickelodeanuzumaki.github.io/DuocDieuHan/) 👈
 
 ## Purpose of this website:
 
@@ -33,4 +35,6 @@ _There is still a quite a few errors with this website for the responsive design
 
 HTML CSS JavaScript
 
-✔️ License & Copyright © 2024 Nick Vo | Made with love for mum
+✔️ License & Copyright
+
+© 2024 Nick Vo | Made with love for mum
