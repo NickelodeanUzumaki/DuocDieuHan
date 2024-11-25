@@ -395,7 +395,7 @@ header {
   /* Chiều cao tối thiểu */
   max-height: 50vh;
   /* Chiều cao tối đa là 50% chiều cao viewport */
-  background: url(/assets/img/slider.png) no-repeat center center;
+  background: url(/../img/slider.png) no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;
