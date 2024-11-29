@@ -2,7 +2,7 @@
 
 **A small project for my awesome mum - est 2024**
 
-> Youtube link for the process of developing this project: (still in process)
+> Youtube link for the process of developing this project: [Youtube video](https://www.youtube.com/watch?v=TQc3SgXqjLU)
 
 Check this result website out here: [Click here](https://nickelodeanuzumaki.github.io/DuocDieuHan/) 👈
 
